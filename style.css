@@ -1,0 +1,68 @@
+@import url('fonts/main_font.css');
+
+* {
+    margin: 0;
+    font-family: 'StratosSkyeng', sans-serif;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative; /* Для позиционирования кнопки */
+}
+
+.content {
+    margin-left: 225px;
+    margin-top: 75px;
+    min-height: 100vh;
+    font-size: 24px;
+    padding-bottom: 10;
+    text-align: left;
+    color: white;
+}
+
+.nextlink {
+    position: absolute;
+    display: block;
+    background-color: rgb(122, 44, 196);
+    padding: 11px 30px;
+    border-radius: 50px;
+    font-size: 32px;
+    color: white;
+    top: -70px;
+    right: 5px;
+}
+
+.backlink {
+    position: absolute;
+    display: block;
+    background-color: rgb(122, 44, 196);
+    padding: 11px 30px;
+    border-radius: 50px;
+    font-size: 32px;
+    color: white;
+    top: -70px;
+    left: 5px;
+}
+
+
+.in-one-line {
+    display: flex;
+    gap: 32px;
+}
+
+.center {
+    padding-left: calc(50% - 500px);  
+    padding-right: calc(50% - 500px);
+}
+/* Только для центрирования мемов */
+.meme-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 30px;
+    margin-top: 40px;
+}

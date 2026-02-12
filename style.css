@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
-    position: relative; /* Для позиционирования кнопки */
+    position: relative; 
 }
 
 .content {
@@ -65,4 +65,5 @@ body {
     grid-template-columns: repeat(2, 500px);
     gap: 30px;
     margin-top: 40px;
+
 }
